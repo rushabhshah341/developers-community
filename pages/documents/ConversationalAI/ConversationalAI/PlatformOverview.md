@@ -11,11 +11,14 @@ permalink: conversational-ai-overview.html
 indicator: both
 ---
 
-LivePerson's Conversational AI is a suite of integrated apps that work together to provide an all-in-one automation and AI solution.
+LivePerson's Conversational AI is a suite of integrated apps that work together to provide an all-in-one automation and AI solution. Conversational AI offers an end-to-end orchestration of brand to consumer conversations using the Intent Analyzer for intent detection, Maven’s AI tools for routing and recommending actions to agents, and Conversation Builder for building bots and automations. With LivePerson’s conversational AI capabilities, brands can personalize conversational experiences for each customer throughout their journey - at scale.
+
 
 <img class="fancyimage" style="width:750px" src="img/ConvoBuilder/platform_main.png">
 
 ### Modules
+
+Conversational AI includes the following AI tools and automations:
 
 - [Conversation Builder](conversation-builder-bot-workspace.html) is the primary application that allows you to design new bots / automations. Leveraging all of the other apps, this is where the user configures and designs conversational flows, API integrations, etc.
 
