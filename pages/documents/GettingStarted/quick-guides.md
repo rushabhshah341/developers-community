@@ -28,12 +28,12 @@ Our quick start guides offer step-by-step instructions to help you set up start 
         <a class="welcome-card" target="_blank" href="https://knowledge.liveperson.com/getting-started-quick-start-guides-twilio-sms-quick-start.html"> 
         <img class="container-image" src="img/ic_SMS.svg"/>
         <h5 class="getstarted-title">Messaging Channels</h5>
-        <h5 class="getstarted-content ">Expand brand reach using SMS text</h5>
+        <h5 class="getstarted-content ">Expand brand reach using SMS</h5>
         </a>
         <a class="welcome-card" target="_blank" href="https://knowledge.liveperson.com/getting-started-quick-start-guides-web-messaging-quick-start.html"> 
         <img class="container-image" src="img/ic_messaging.svg"/>
         <h5 class="getstarted-title">Messaging Channels</h5>
-        <h5 class="getstarted-content ">Setup web messaging for website </h5>
+        <h5 class="getstarted-content ">Set up Web Messaging for website </h5>
         </a>
 </div>
   <div class="whole-external-link">
