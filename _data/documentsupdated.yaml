@@ -1,7 +1,7 @@
 - categoryname: Getting Started
   image: getting-started
   documents:
-  - documentname: First Steps
+  - documentname: First steps in implementing and extending LivePerson
   - documentname: Quick Start Guides
   - documentname: API Guidelines
     pages:

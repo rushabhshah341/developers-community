@@ -18,7 +18,7 @@ indicator: both
 </div>
 
 
-### Recommended Reading
+### Introduction
 
 Most user actions within LiveEngage can be performed programmatically using the REST API. Since we use a REST model, we recommend you be fluent in:
 
