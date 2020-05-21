@@ -15,7 +15,7 @@ solutions with you
 <div class="card-container">
   <div id="success-stories" class="welcome-card" style="padding:58px 22px 58px 22px;">
     <a href="/first-steps.html">
-      <p class="success-stories-header" style="margin-top: 17px;margin-left: 16px;"> First Steps</p>
+      <p class="success-stories-header" style="margin-top: 17px;margin-left: 16px;">First steps in implementing and extending LivePerson</p>
       <p class="free-trial-label" style="margin-left: 16px;"> 
       <img class="dots-container" src="img/four-dots-white.svg"/>
       Read our documentation, create an account and explore our APIs</p>
