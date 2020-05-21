@@ -1,8 +1,8 @@
 ---
-pagename: First steps in implementing and extending LivePerson
+pagename: First steps
 sitesection: Documents
 categoryname: "Getting Started"
-permalink: first-steps-in-implementing-and-extending-liveperson.html
+permalink: first-steps.html
 indicator: both
 ---
 <!-- The Modal -->
