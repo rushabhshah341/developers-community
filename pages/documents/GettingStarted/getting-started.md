@@ -1,8 +1,8 @@
 ---
-pagename: First Steps
+pagename: First steps in implementing and extending LivePerson
 sitesection: Documents
 categoryname: "Getting Started"
-permalink: first-steps.html
+permalink: first-steps-in-implementing-and-extending-liveperson.html
 indicator: both
 ---
 <!-- The Modal -->
@@ -18,7 +18,7 @@ indicator: both
 </div>
 
 
-### Introduction and required reading
+### Recommended Reading
 
 Most user actions within LiveEngage can be performed programmatically using the REST API. Since we use a REST model, we recommend you be fluent in:
 
@@ -40,7 +40,7 @@ Before you can do anything, you must configure and understand a few things first
 
 ### Step 1. Create a LiveEngage account
 
-Before you can use LiveEngage, you must first have a working account. If you don't already have one, you can sign up for a [free trial account](https://developers.liveperson.com/register.html). to get started with messaging, Conversation Builder, and LivePerson Functions.  To add more seats or access features not included in the trial, you will need to upgrade to a paid subscription.  You can chat with LivePerson sales on [liveperson.com](https://www.liveperson.com) or from the connection area within LiveEngage to get help from a specialist to find the right package for your business.
+Before you can use LiveEngage, you must first have a working account. If you don't already have one, you can sign up for a free trial account to get started with messaging, Conversation Builder, and LivePerson Functions. To add more seats or access features not included in the trial, you will need to upgrade to a paid subscription. You can chat with LivePerson sales on liveperson.com to get help from a specialist to find the right package for your business.
 
 Some features you might want to enable are:
 
@@ -57,7 +57,7 @@ Some features you might want to enable are:
 * Photo sharing
 
 {: .notice}
-If you already have a LiveEngage account, you can use that account instead of a creating a free trial account. However, we recommend creating a new account to make sure that any changes and customizations you make do not affect your site visitors until you are ready to launch them.
+If you already have a LiveEngage account, you can use that account instead of creating a free trial account. However, we recommend creating a new account to make sure that any changes and customizations you make do not affect your site visitors until you are ready to launch them.
 
 ### Step 2. Accessing LivePerson APIs
 
@@ -92,25 +92,25 @@ Congratulations! You are now ready to customize and implement features in LiveEn
         <div class="header-lp4-external">
             Further Reading
             <div class="link-padding" style="margin-top:24px">
-                <a target="_blank" href="https://developers.liveperson.com/common-resources-accessing-liveperson-apis.html"> 
+                <a target="_blank" href="https://developers.liveperson.com/common-resources-accessing-liveperson-apis.html">
                     <img class="dots-container" src="img/four-dots.svg"/>
                         Accessing LivePerson APIs
                 </a>
             </div>
             <div class="link-padding" >
-                <a target="_blank" href="https://developers.liveperson.com/common-resources-create-api-keys.html"> 
+                <a target="_blank" href="https://developers.liveperson.com/common-resources-create-api-keys.html">
                         <img class="dots-container" src="img/four-dots.svg"/>
                             Create API keys
                 </a>
             </div>
             <div class="link-padding" >
-                <a target="_blank" href="https://developers.liveperson.com/common-resources-domain-api.html"> 
+                <a target="_blank" href="https://developers.liveperson.com/common-resources-domain-api.html">
                         <img class="dots-container" src="img/four-dots.svg"/>
-                            Domain API 
+                            Domain API
                 </a>
             </div>
             <div class="link-padding" >
-                <a target="_blank" href="https://developers.liveperson.com/common-resources-retry-policy-recommendations.html"> 
+                <a target="_blank" href="https://developers.liveperson.com/common-resources-retry-policy-recommendations.html">
                         <img class="dots-container" src="img/four-dots.svg"/>
                         Retry policy recommendations
                 </a>
@@ -127,7 +127,7 @@ var btn = document.getElementById("teaser-banner");
 var span = document.getElementsByClassName("close")[0];
 // var player = document.getElementById('vimeo-iframe').contentWindow.document.getElementById('player');
 // player.setAttribute('style', 'border: 4px solid white ');
-// When the user clicks the button, open the modal 
+// When the user clicks the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
 }
