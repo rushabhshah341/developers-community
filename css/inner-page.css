@@ -3,7 +3,6 @@ a {
 }
 
 a:focus {
-  outline: none !important;
   text-decoration: none !important;
 }
 
