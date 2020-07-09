@@ -14,10 +14,15 @@ const fs = require("fs"); // Or `import fs from "fs";` with ESM
    }
    solution.forEach(item => {
       // TODO use file reader to see if folder exists
-      if (folderName(item.solutionname) && item.documents) {
+      solution_path = "pages/Solutions/";
+      solution_path += folderName(item.solutionname) + '/';
+      console.log('Solution path updated :', solution_path)
+      if (fs.existsSync(solution_path) && item.documents) {
+         console.log('Found folder HOOORAH :', folderName(item.solutionname))
+
          item.documents.forEach(doc => {
             // TODO use file reader to see if folder exists
-            solution_path = "pages/Solutions/";
+
             //is this doc a folder 
             if (doc.documentname.pages) {
                // check if folder exists 
@@ -56,9 +61,7 @@ const fs = require("fs"); // Or `import fs from "fs";` with ESM
          })
 
       } else {
-         console.log(`${doc.documentname} file doesn't exist or is not named properly. 
-               file name should take title, make it lower case and add dashes where spaces are
-               i.e.  File Name should be file-name
+         console.log(` ${folderName(item.solutionname)} folders doesn't exist or is not named properly.
             `);
       }
    })
