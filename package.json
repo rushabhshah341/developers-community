@@ -18,7 +18,7 @@
     "build": "bundle exec jekyll build",
     "serve": "bundle exec jekyll serve --incremental",
     "yaml2json": "sh ./_scripts/yaml_to_json.sh",
-    "verify": "npm run yaml2json && node ./_scripts/verify.js"
+    "verify": "node ./_scripts/verify_documents.js"
   },
   "repository": {
     "type": "git",
