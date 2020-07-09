@@ -17,7 +17,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "bundle exec jekyll build",
     "serve": "bundle exec jekyll serve --incremental",
-    "yaml2json":"sh ./_scripts/yaml_to_json.sh"
+    "yaml2json": "sh ./_scripts/yaml_to_json.sh",
+    "verify": "npm run yaml2json && node ./_scripts/verify.js"
   },
   "repository": {
     "type": "git",
