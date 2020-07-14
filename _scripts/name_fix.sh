@@ -81,7 +81,7 @@ for file in `find ./pages/* -type d` ; do
     fi
 done
 tail -r ./_scripts/badFolders.txt > ./_scripts/badFoldersR.txt
-rm -f ./_scripts/badFolders.txt
+# rm -f ./_scripts/badFolders.txt
 
 
 input="./_scripts/badFoldersR.txt"
@@ -112,6 +112,8 @@ do
   
     current="${path}/${currentFolder}"
     new="${path}/${folder}"  
-    mv -f "$current" "$new"
+    echo $current
+    echo $new
+    # mv -f "$current" "$new"
 done < "$input"
-rm -f ./_scripts/badFoldersR.txt
+# rm -f ./_scripts/badFoldersR.txt
