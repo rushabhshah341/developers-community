@@ -4,7 +4,7 @@ Keywords:
 sitesection: Documents
 categoryname: "Messaging Channels"
 documentname: Mobile App Messaging SDK for iOS
-subfoldername: All Releases
+subfoldername: Release Notes
 permalink: mobile-app-messaging-sdk-for-ios-all-releases.html
 indicator: messaging
 ---
