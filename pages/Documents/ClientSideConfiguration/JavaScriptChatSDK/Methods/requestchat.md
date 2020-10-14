@@ -2,6 +2,7 @@
 pagename: requestChat
 redirect_from:
   - consumer-experience-javascript-chat-requestchat.html
+  - consumer-experience-javascript-chat-startchatrequestchat.html
 Keywords:
 sitesection: Documents
 categoryname: "Client Side Configuration"
