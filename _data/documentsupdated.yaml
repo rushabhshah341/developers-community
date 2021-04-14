@@ -248,15 +248,16 @@
       - pagename: Conversation Context Service
         subpages:
           - subpagename: Overview
-          - subpagename: Inbox System Attributes
-          - subpagename: Custom Static or Function
-          - subpagename: Conversation Context Service
+          - subpagename: Getting Started
+          - subpagename: Attributes
+          - subpagename: Methods
       - pagename: Dynamic Routing
         subpages:
           - subpagename: Overview
-          - subpagename: Tutorial
-          - subpagename: Use Conversation Orchestrator with Your Bot
-          - subpagename: Using SDE attributes in Routing
+          - subpagename: Getting Started
+          - subpagename: Creating and Managing Policies
+          - subpagename: Routing Conversations by SDEs
+          - subpagename: Routing Conversations by Intents
       - pagename: Recommendation API
         subpages:
           - subpagename: Overview
@@ -273,6 +274,10 @@
         subpages:
          - subpagename: Single Utterance Testing
          - subpagename: Advanced Model Testing
+      - pagename: External APIs
+        subpages:
+         - subpagename: Getting Started
+         - subpagename: Model Tester External APIs
   - documentname: Intent Analyzer
     pages:
       - pagename: Overview
@@ -323,6 +328,7 @@
       - pagename: Bot Conversation Errors
       - pagename: Google Dialogflow
       - pagename: Google Dialogflow Version 2
+      - pagename: Google Dialogflow CX
       - pagename: IBM Watson Assistant
       - pagename: IBM Watson Assistant Version 2
       - pagename: Amazon Lex
@@ -335,6 +341,7 @@
       - pagename: Custom Integration
       - pagename: Hook Configuration
       - pagename: Public API
+      - pagename: Conversation Tester
 
   - documentname: Messaging Agent SDK
     pages:
@@ -929,13 +936,6 @@
       subpages:
       - subpagename: Quick Start 5.2.1 and below
       - subpagename: Quick Start - 6.0 and up (XCFramework support)
-    - pagename: Advanced Configuration
-      subpages:
-        - subpagename: App Extensions
-        - subpagename: Conversations Lifecycle
-        - subpagename: SDK Delegates
-        - subpagename: UI
-        - subpagename: User Data
     - pagename: Advanced Features
       subpages:
       - subpagename: Audio Messages
@@ -947,6 +947,7 @@
       - subpagename: Photo and File Sharing
       - subpagename: Scroll Behavior Configuration
       - subpagename: Unauthenticated In-App Messaging
+      - subpagename: Voice and Video
       - subpagename: Welcome Message with Quick Replies
     - pagename: SDK APIs
       subpages:
